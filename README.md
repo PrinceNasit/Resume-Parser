@@ -28,7 +28,7 @@ The process is as follows:
 
 </div>
 
-Follow these steps to set up the environment and run the application.
+Follow these steps to run the application.
 
 1. Clone the repository to your local machine:
    ```bash
