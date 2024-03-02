@@ -44,8 +44,10 @@ Follow these steps to set up the environment and run the application.
    ```bash
    pip install -r requirements.txt
    ```
-
-4. Run the project:
+4. Prepare Data:
+   Place your resumes in any format (e.g., PDF, DOCX, LETEX, HTML)  in the current folder. Remove any existing contents in this folder.
+    
+5. Run the project:
    Open the ResumeRevealer.ipynb file in Jupyter Notebook or JupyterLab.
    Run all the cells and you will get you output .json file.
    
