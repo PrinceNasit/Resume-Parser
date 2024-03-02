@@ -2,7 +2,7 @@
   
 # Resume-Parser
 </div>
-A  comprehensive resume parser, capable of extracting detailed information from resumes in various formats (PDF, JPG, HTML, DOC, etc.). The parser accurately classify text into distinct sections (e.g., education, work experience, skills) and sequence them based on dates, where available. Also standardize different job titles and occupations against the O*NET database, ensuring a consistent taxonomy across parsed resumes and implement an advanced feature that mines detailed skills and competencies from project descriptions and position roles within the resume, highlighting the candidate's specific abilities and expertise. Abstractive skill extraction is a bonus.
+A  comprehensive resume parser, capable of extracting detailed information from resumes in various formats (PDF, LETEX, HTML, DOC, etc.). The parser accurately classify text into distinct sections (e.g., education, work experience, skills) and sequence them based on dates, where available. Also standardize different job titles and occupations against the O*NET database, ensuring a consistent taxonomy across parsed resumes and implement an advanced feature that mines detailed skills and competencies from project descriptions and position roles within the resume, highlighting the candidate's specific abilities and expertise and can extract skills from resume and predict what skills it can have based on projects and jobs.
 <br>
 <div align="center">
 
