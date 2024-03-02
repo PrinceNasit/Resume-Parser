@@ -2,7 +2,7 @@
   
 # Resume-Parser
 </div>
-A  comprehensive resume parser, capable of extracting detailed information from resumes in various formats (PDF, LETEX, HTML, DOC, etc.). The parser accurately classify text into distinct sections (e.g., education, work experience, skills) and sequence them based on dates, where available. Also standardize different job titles and occupations against the O*NET database, ensuring a consistent taxonomy across parsed resumes and implement an advanced feature that mines detailed skills and competencies from project descriptions and position roles within the resume, highlighting the candidate's specific abilities and expertise and can extract skills from resume and predict what skills it can have based on projects and jobs.
+A  comprehensive resume parser, capable of extracting detailed information from resumes in various formats (PDF, LATEX, HTML, DOC, etc.). The parser accurately classify text into distinct sections (e.g., education, work experience, skills) and sequence them based on dates, where available. Also standardize different job titles and occupations against the O*NET database, ensuring a consistent taxonomy across parsed resumes and implement an advanced feature that mines detailed skills and competencies from project descriptions and position roles within the resume, highlighting the candidate's specific abilities and expertise and can extract skills from resume and predict what skills it can have based on projects and jobs.
 <br>
 <div align="center">
 
@@ -17,7 +17,7 @@ The process is as follows:
 
 2. **Classification into different section**: The tool uses python script to extract the details with their classess and extract them from your resume. The sections includes e.g.,  Name, email, education, work experience, skills.
 
-3. **Job extraction**: The tool enables to extract job title from input resume and matches with the exixting O*NET database.
+3. **Job extraction**: The tool enables to extract job title from input resume and matches with the existing O*NET database.
    
 4. **Skill extraction and prediction**: It also extarct the skill from the resume as it contains projects and jobs and also accouding to it, it can predict the skills that user have. This can be done using the dataset that we have created and trained a model to predict skills.
 <br>
@@ -45,12 +45,12 @@ Follow these steps to run the application.
    pip install -r requirements.txt
    ```
 4. Prepare Data:
-   Place your resumes in any format (e.g., PDF, DOCX, LETEX, HTML)  in the current folder. Remove any existing contents in this folder.
+   Place your resumes in any format (e.g., PDF, DOCX, LATEX, HTML)  in the current folder. Remove any existing content in this folder.
     
 5. Run the project:
    Open the ResumeRevealer.ipynb file in Jupyter Notebook or JupyterLab.
-   Run all the cells and you will get you output .json file.
+   Run all the cells and you will get you output .txt file.
 
 Python version is 3.11.4.
 
-You can download dataset from given link : [Dataset](https://drive.google.com/drive/folders/1Pko8-of2G0smNEGJUq7I2oInJ2-C-ufn?usp=drive_link)
+You can download dataset from given link : [Dataset](https://drive.google.com/drive/folders/1Pko8-of2G0smNEGJUq7I2oInJ2-C-ufn?usp=sharing)
