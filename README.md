@@ -49,7 +49,7 @@ Follow these steps to run the application.
     
 5. Run the project:
    Open the ResumeRevealer.ipynb file in Jupyter Notebook or JupyterLab.
-   Run all the cells and you will get you output .txt file.
+   Run all the cells and you will get your output .txt file.
 
 Python version is 3.11.4.
 
