@@ -19,7 +19,7 @@ The process is as follows:
 
 3. **Job extraction**: The tool enables to extract job title from input resume and matches with the exixting O*NET database.
    
-4. **Skill extraction and prediction**: It also extarct the skill from the resume as it contains projects and jobs and also accouding to it, it can predict the skills that user have. This can be done using 
+4. **Skill extraction and prediction**: It also extarct the skill from the resume as it contains projects and jobs and also accouding to it, it can predict the skills that user have. This can be done using the dataset that we have created and trained a model to predict skills.
 <br>
 
 <div align="center">
