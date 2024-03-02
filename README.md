@@ -53,4 +53,4 @@ Follow these steps to run the application.
 
 Python version is 3.11.4.
 
-You can download dataset from given link : ![Dataset](https://drive.google.com/drive/folders/1Pko8-of2G0smNEGJUq7I2oInJ2-C-ufn?usp=drive_link)
+You can download dataset from given link : [Dataset](https://drive.google.com/drive/folders/1Pko8-of2G0smNEGJUq7I2oInJ2-C-ufn?usp=drive_link)
