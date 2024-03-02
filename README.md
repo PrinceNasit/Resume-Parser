@@ -6,7 +6,7 @@ A  comprehensive resume parser, capable of extracting detailed information from 
 <br>
 <div align="center">
 
-# How does it works?
+# How does it work?
 </div>
 
 The Resume Matcher takes your resume as input, parses them using Python, and with various libraries and models, analyse all your resume and providing you with detailed information, section classification, job extraction, skill extraction and prediction with json file format.
