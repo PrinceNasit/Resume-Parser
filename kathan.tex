@@ -1,0 +1,212 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\input{glyphtounicode}
+
+% -------------------- FONT OPTIONS --------------------
+% sans-serif
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% serif
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-1in} % Default was -.5in
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Subsection formatting
+\titleformat{\subsection}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% -------------------- CUSTOM COMMANDS --------------------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\setlength{\footskip}{4.08003pt}
+
+% -------------------- START OF DOCUMENT --------------------
+\begin{document}
+
+% -------------------- HEADING--------------------
+\begin{flushright}
+  % \vspace{-4pt}
+  \color{gray}  \item
+% Last Updated on January 12th, 2024
+\end{flushright}
+
+\vspace{-7pt}
+
+\begin{center}
+    \textbf{\Huge \scshape Kathan Kathrotiya} \\ \vspace{5pt}
+    \small 
+    \faIcon{phone-alt} \ \small 958-656-6717 $  $
+    \faIcon{envelope}
+    \href{mailto:kathankathrotiya@gmail.com}
+    {{kathankathrotiya@gmail.com}} $  $
+    \faIcon{github}
+    \href{https://github.com/Kathankathrotiya}{{github.com/Kathankathrotiya}} $  $
+    \faIcon{linkedin}
+    \href{https://www.linkedin.com/in/kathankathroitya/}{{linkedin.com/in/kathankathrotiya}} $  $
+    
+\end{center}
+
+% -------------------- EDUCATION --------------------
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Nirma University}{June 2025}      
+      {B.Tech Computer Science and Engineering}{Current GPA: 9.09}
+      \vspace{1pt}
+    \resumeSubheading
+      {P.V. Modi High School}{May 2021}
+      {JEE Mains (98.54) \& JEE Advanced Qualified}{Board PR: 98.97}
+
+    \vspace{2pt}
+
+  \resumeSubHeadingListEnd
+
+
+% -------------------- PROJECTS --------------------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+        {\href{https://github.com/Kathankathrotiya/WhatsApp-Chat-Analyzer}{\faIcon{external-link-alt} \textbf{ WhatsApp-Chat-Analyzer}} $|$ \footnotesize\emph{Python, Streamlit, GloVe, CNN, BiLSTM, Plotly, Matplotlib, Pandas}} {Sept. 2023} \\
+        \resumeItemListStart
+            \resumeItem{Developed an interactive user interface using Streamlit and Python libraries to facilitate user engagement.}
+            \resumeItem{Implemented GloVe embeddings for data preprocessing, to efficiently structure raw chat data.}
+            \resumeItem{Integrated deep learning model for sentiment analysis, leveraging Convolutional Neural Network (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) layers.}
+            \resumeItem{Achieved a commendable 78\% accuracy by strategically employing the Adam optimizer during the training of the sentiment analysis model.}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+         {\href{https://github.com/Kathankathrotiya/Hospital-Management-System}{\faIcon{external-link-alt} \textbf{ Hospital-Management-System}} $|$ \footnotesize\emph{Python, Flask, SQLAlchemy, MySQL, Werkzeug, HTML, Jinja}}{Mar. 2023} \\
+        \resumeItemListStart
+            \resumeItem{Developed a Flask-based web application that serves as a comprehensive Hospital Management System, streamlining processes for doctors, patients, and administrators.}
+            \resumeItem{Implemented secure user authentication features with Flask-Login, ensuring a seamless and secure experience for users during registration, login, and logout.}
+            \resumeItem{Designed and integrated a relational database using SQLAlchemy, facilitating efficient data management for doctors, patients, and appointments. Implemented CRUD functionalities to enable easy manipulation of records.}
+          \resumeItemListEnd
+          
+        \resumeProjectHeading
+         {\href{https://github.com/Kathankathrotiya/Break-the-Bricks}{\faIcon{external-link-alt} \textbf{ Break-the-Bricks}} $|$ \footnotesize\emph{Java, Swing, Graphics2D, IntelliJ}}{Oct. 2022} \\
+        \resumeItemListStart
+            \resumeItem{Engineered a dynamic 2D breakout-style game in Java, applying OOP principles to implement robust game logic, precise collision detection, and an efficient scoring system.}
+            \resumeItem{Designed and developed the GUI using the Swing library, creating responsive UI elements such as paddles and implementing smooth animations for enhanced user experience.}
+            \resumeItem{Implemented a modular and scalable code structure, utilizing Graphics2D for rendering and optimizing code for improved readability and performance.}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+        {\href{https://github.com/Kathankathrotiya/Movie-Ticket-Booking-System}{\faIcon{external-link-alt} \textbf{ Movie-Ticket-Booking-System}} $|$ \footnotesize\emph{C/C++, Visual Studio Code}}{May. 2022}\\
+        \resumeItemListStart
+            \resumeItem{Engineered a console-based Movie Ticket Booking System in C, providing users an intuitive interface for selecting movies, choosing seats, and booking them.}
+            \resumeItem{Designed a user-friendly application with dynamic ticket generation, offering a straightforward and efficient process for users to book, cancel tickets, and receive detailed booking confirmations—all within the console environment.}
+          \resumeItemListEnd
+          
+          
+    \resumeSubHeadingListEnd
+
+% -------------------- SKILLS --------------------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+
+     \textbf{Coursework}{: Data Structures and Algorithms, Object-Oriented Programming, Computer Networks, Database Management System, Machine Learning, Computer Architecture and Cloud Computing (AWS)} \\
+     \textbf{Languages}{: C/C++, Python, Java, JavaScript, HTML,CSS} \\
+     
+     \textbf{Frameworks}{: React, Flask, Angular, WordPress} \\
+     
+     \textbf{Libraries}{: NumPy, Pandas,Matplotlib,Seaborn,Scikit-learn,TensorFlow,Keras,NLTK}  \\
+
+     \textbf{IDEs}{: PyCharm, Visual Studio Code, Jupyter Notebook, IntelliJ} \\
+
+     
+    }}
+ \end{itemize}
+
+% -------------------- EXPERIENCE --------------------
+\section{Achievements}
+  \resumeSubHeadingListStart
+
+          \resumeProjectHeading
+         {\textbf{5 Star \& Problem Solving (Intermediate) Certified} $|$ \footnotesize\emph{HackerRank} $   $ {\href{https://www.hackerrank.com/certificates/228e8148a4c5}{\faIcon{external-link-alt}}}\vspace{7pt}}{}
+        {\small{Solved Algorithms and Data Structures problems}}
+
+            \resumeProjectHeading
+          {\textbf{Master Round Qualified} $|$ \footnotesize\emph{Innovate India Coding Championship} $   $ {\href{https://drive.google.com/file/d/1lgHcKFil0cDZerXFaCmNcrPnoiFC0OWK/view?usp=drive_link}{\faIcon{external-link-alt}}}\vspace{7pt}}{Jul. 2022} \\
+          {\small{Cleared Aptitude test and Coding Round}}
+    \resumeSubHeadingListEnd 
+
+    
+
+\end{document}
