@@ -15,7 +15,7 @@ The process is as follows:
 
 1. **Parsing**: The system uses Python to parse both your resume.
 
-2. **Classification into different section**: The tool uses python script to extract the details with their classess and extract them from your resume. The sections includes e.g.,  Name, email, education, work experience, skills.
+2. **Classification into different section**: The tool uses python script to extract the details with their classes and extract them from your resume. The sections includes e.g.,  Name, email, education, work experience, skills.
 
 3. **Job extraction**: The tool enables to extract job title from input resume and matches with the existing O*NET database.
    
