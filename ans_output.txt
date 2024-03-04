@@ -18,7 +18,7 @@ experience: experience revelio labs new york, new york data scientist jul 2021 -
 
 extracted_skills_projects: ['Java, Spring Boot, Career Development, Artificial Intelligence']
 
-extracted_skills_job: ['Data Engineering, ETL (Extract, Transform, Load), Big Data Technologies']
+extracted_skills_job: ['Project Management, Agile Methodology, Team Leadership, Client Communication']
 
 O-NET title: Data Scientists
 

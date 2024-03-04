@@ -19,3 +19,5 @@ def convert_html_to_text(html_file_path, text_file_path):
 
     with open(text_file_path, 'w', encoding='utf-8') as text_file:
         text_file.write(text_content)
+
+convert_html_to_text('Resume.html', 'output_html.txt')

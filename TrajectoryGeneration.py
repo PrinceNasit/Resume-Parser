@@ -19,7 +19,7 @@ def extract_career_trajectory(resume_text):
     current_job = None
     i=0
     for line in lines:
-        date_matches = re.findall(r'\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* (?:19|20)\d{2}\b', line, re.IGNORECASE)
+        date_matches = re.findall(r'\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|June|July|August|September|October|November|December)[a-z]* (?:19|20)\d{2}\b', line, re.IGNORECASE)
         if date_matches:
             dates = [datetime.strptime(date, "%b %Y") for date in date_matches]
             m=dates[0].strftime('%b')
