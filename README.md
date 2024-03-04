@@ -24,7 +24,7 @@ The process is as follows:
 
 <div align="center">
 
-## How to install
+## How to install?
 
 </div>
 
